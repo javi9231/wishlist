@@ -46,7 +46,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
-      "npm run lint"
+      "yarn lint"
     ],
     "src/**/*.{js,jsx,json,css,scss}": [
       "prettier --write",
